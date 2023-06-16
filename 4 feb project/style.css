@@ -1,0 +1,90 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.logo {
+    position: absolute;
+    display: flex;
+    left: 5%;
+    padding: 1%;
+    
+}
+.menu {
+    display: flex;
+    font-size: 15px;
+    gap: 10%;
+    padding: 2%;
+    font-weight: 400;
+    list-style: none;
+    position: absolute;
+    left: 20%;
+    cursor: pointer;
+    
+}
+.para {
+    align-items: flex-end;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    
+}
+.heading {
+    font-size: 50px;
+    
+    
+}
+span{
+    color: blue;
+}
+.back {
+    position: absolute;
+    height: 600px;
+    width: 650px;
+    top: 23%;
+    right: 16%;
+}
+.see {
+color: rgb(251, 251, 252);
+background-color: rgb(24, 19, 187);
+border: 1px solid;
+cursor: pointer;
+width: fit-content;
+border-radius: 5px;
+padding: 4px 10px;
+font-size: 15px;
+position: absolute;
+top: 70%;
+left: 12%;
+cursor: pointer;
+}
+.img {
+    position: absolute;
+    top: 15%;
+    right: 16%;
+}
+.contact {
+    color: rgb(251, 251, 252);
+background-color: rgb(24, 19, 187);
+border: 1px solid;
+cursor: pointer;
+width: fit-content;
+border-radius: 5px;
+padding: 4px 10px;
+font-size: 15px;
+position: absolute;
+top: 2%;
+right: 16%;
+cursor: pointer;
+}
+
+
+
+
+
